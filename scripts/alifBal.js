@@ -2,7 +2,7 @@ const hre = require("hardhat");
   const { sendSignedShieldedQuery } = require("./utils");
   const ethers = require("ethers");
   
-  const PK = "0x56c44ac5cd895a250ef38c7e925269d44e6861c95a80ea71f65cc7d46e6f1d57";
+  const PK = "go-find-it";
   const deployedContractAddress = "0x875C221149F5C9eC761adE9a6CbD8aAcC76D5D8D";
   
   async function main() {
